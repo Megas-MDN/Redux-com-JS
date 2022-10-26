@@ -1,0 +1,17 @@
+#container {
+  border: 1px solid red;
+}
+
+#state {
+  overflow-wrap: break-word;  
+  word-wrap: break-word; 
+  word-break: break-word;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+#color {
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+}

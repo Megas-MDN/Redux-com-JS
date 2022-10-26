@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+    <style>
+      body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      #container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+
+      button {
+        height: 50px;
+        width: 200px;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <div id="container">
+      <div id="state"></div>
+      <button id="delete">Delete Color color</button>
+      <p>Color: <span id="value">white</span></p>
+      <div id="color"></div>
+      <button id="next">Next color</button>
+      <button id="previous">Previous color</button>
+      <button id="random">Random color</button>
+    </div>
+    <script src="index.js">
+    </script>
+  </body>
+</html>
